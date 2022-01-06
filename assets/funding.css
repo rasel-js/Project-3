@@ -1,0 +1,48 @@
+/*** About Section ***/
+.funding-section .container-fluid {
+    max-width: 1280px;
+}
+.funding-section {
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.finix-text span {
+    color: #e73c3e;
+}
+.finix-text h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    color: #111;
+}
+.finix-text p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+}
+.finix-text strong {
+    font-size: 18px;
+    color: #606060;
+    font-weight: 400;
+}
+.finix-text ul {
+    margin-top: 20px;
+}
+.finix-text ul li {
+    list-style-type: none;
+    color: #606060;
+    margin-bottom: 10px;
+    margin-left: -28px;
+    
+}
+.finix-text ul li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    padding-right: 15px;
+    color: #e73c3e;
+}
